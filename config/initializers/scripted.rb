@@ -1,0 +1,6 @@
+require 'scripted_client'
+ShopifyApp.configure do |config|
+  ScriptedClient.organization_key = 'ac6e586a'
+  ScriptedClient.access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJzaW9uIjoyLCJwYXJ0eV9rZXkiOiI1OGVjNGY2NyIsImV4cCI6MTU1MTE0MTk2NCwibG9uZ19saXZlZCI6dHJ1ZSwiaWF0IjoxNDU2NDQ3NTY0fQ.zwoWFj8nUDbWTMUYpQNJ7rj9-zqpbJuC0jtd0b6vhqI'
+end
+
